@@ -1,0 +1,1 @@
+export const DB_NAME = "MATCH_DAY_FAN_DATA";
