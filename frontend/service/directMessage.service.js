@@ -5,7 +5,7 @@ import axios from "axios"
 export class directMessageService{
     constructor(){
         this.instance = axios.create({
-            baseURL: 'http://localhost:8000/api/v1/directMessage'
+            baseURL: 'https://yolo-backend-q3lv.onrender.com/api/v1/directMessage'
         })
     }
 
